@@ -1,0 +1,75 @@
+html,body{
+  height: 100%;
+}
+header{
+  height: auto;
+  min-height: 100%;
+  position: relative;
+  background-image: url(http://histpol.pl.ua/img/pages/1046.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  overflow:hidden;
+}
+.canvas{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(132,112,255,0.3);
+}
+.navbar-nav {
+  background-color: rgba(255,255,255,0.8);
+}
+.dropdown-item a{
+  text-shadow: 1px 1px black;
+}
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+  background-color: rgba(132,112,255,0.7);
+}
+header h1 
+{
+	color: #f1f1f1;
+	position: absolute; 
+	top 10px;
+	text-align: center;
+	font-size: 100 px;
+	letter-spacing: 3px;
+  text-shadow: 2px 2px  black;
+}
+p {
+  width: 125px;
+  height: 125px;
+  display: inline-block;  
+  margin: 25px;
+}
+.card-text {
+  display: inline ;
+  }
+  
+img {
+  position: relative;
+  width: 125px;
+  height: 125px;
+}
+.card {
+  width: 100%;
+  opacity: 0.8;
+  text-align: justify;
+  }
+  
+@media screen and (max-width: 992px)
+{
+	.navbar-nav{
+		float: left;
+		text-align: center;
+	}
+}
+@media (min-width: 992px)
+  .navbar-expand-lg .navbar-collapse 
+  {
+   
+  }
+
+}

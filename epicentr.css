@@ -1,0 +1,58 @@
+html,body{
+  height: 100%;
+}
+header{
+  height: auto;
+  min-height: 100%;
+  position: relative;
+  background-image: url(https://delo.ua/files/images/265/90/epicentr-k-6-dekabrja-otkro_26590_p0.jpg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  overflow:hidden;
+}
+.canvas{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(132,112,255,0.3);
+}
+.navbar-nav {
+  background-color: rgba(255,255,255,0.8);
+}
+.dropdown-item a{
+text-shadow: 1px 1px black;
+}
+
+.navbar .dropdown-item:focus, .navbar .dropdown-item:hover {
+  background-color: rgba(132,112,255,0.7);
+}
+
+header h1 
+{	text-align: center ;
+}
+ 
+
+@media screen and (max-width: 992px)
+{
+	.navbar-nav
+	{
+		float: left;
+		text-align: center;
+	}
+}
+@media (min-width: 992px)
+  .navbar-expand-lg .navbar-collapse 
+  {
+   
+  }
+form{
+ margin: 20px;
+}
+.card {
+  width: 100%;
+  opacity: 0.8;
+  text-align: justify;
+ }
