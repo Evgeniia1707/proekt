@@ -38,19 +38,7 @@ header{
 float: left;
 white-space: nowrap;
 }
-.karta, .foto{
-  display:inline-block;
-  margin: 10px;
-  vertical-align: middle;
-}
-.foto figure{
-  display:inline-block;
-  margin: 5px;
-  text-align: center;
-}
-.figcaption{
-  margin: 5px;
-}
+
 
 
 @media screen and (max-width: 992px)
@@ -62,8 +50,24 @@ white-space: nowrap;
 	}
 }
 @media (min-width: 992px)
+{
   .navbar-expand-lg .navbar-collapse 
   {
    
   }
-
+  }
+  
+@media (min-width: 992px) 
+{
+.col-md-4
+{
+	</center>
+}
+  }
+  @media (min-width: 992px)
+{
+  .col-md-4 
+  {
+   
+  }
+  }
